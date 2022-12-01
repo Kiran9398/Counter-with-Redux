@@ -1,0 +1,50 @@
+.app-container{
+  background-color: rgb(212, 27, 27);
+  margin-left: 400px;
+  margin-right: 400px;
+  box-shadow: 5px 5px rgb(24, 145, 185);
+  padding-bottom: 15px;
+}
+.Counter {
+  text-align: center;
+  font-size: 30px;
+  line-height: 4rem;
+}
+
+.Reset {
+  text-align: center;
+}
+
+#minusBtn, #plusBtn {
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: bold;
+  border: none;
+  /* padding: 20px 50px; */
+  height: 50px;
+  width: 120px;
+  margin: 10px;
+  background-color: rgb(76, 88, 218);
+  color:aliceblue;
+}
+
+#plusBtn {
+  background-color: rgb(102, 27, 214);
+  color:aliceblue;
+}
+
+#resetBtn {
+  cursor: pointer;
+  font-size: large;
+  border: none;
+  /* padding: 20px 50px; */
+  background-color: rgb(10, 185, 86);
+  height: 50px;
+  width: 120px;
+  color:aliceblue;
+}
+
+.ClickedTime {
+  text-align: center;
+  margin-bottom: 0;
+}
